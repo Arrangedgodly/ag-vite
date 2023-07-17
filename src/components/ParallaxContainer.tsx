@@ -13,7 +13,7 @@ const ParallaxContainer = ({ image, name }: ParallaxContainerProps) => {
       bgImageAlt={name}
       strength={500}
       bgClassName="bg-cover bg-center bg-repeat bg-fixed"
-      className="my-10 w-screen flex flex-col items-center justify-center text-2xl font-bold text-white h-[250px]"
+      className="my-10 w-screen flex flex-col items-center justify-center text-4xl font-bold text-white h-[250px]"
     >
       {name}
       <div style={{ height: "50px" }} />
