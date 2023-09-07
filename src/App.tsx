@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import ParallaxContainer from "./components/ParallaxContainer";
-import TTNE from "./assets/ttne.png";
 import kotw from "./assets/kotw.png";
 import godlyshistory from "./assets/godlyshistory.png";
 import repressingrage from "./assets/repressingrage.png";
@@ -14,11 +13,7 @@ function App() {
   return (
     <div className="flex flex-col items-center min-h-screen w-screen">
       <Header />
-      <div className="flex flex-col items-center justify-center mt-20">
-        <ParallaxContainer
-          image={TTNE}
-          name="Taxed Tolled and Eternally Trolled"
-        />
+      <div className="flex flex-wrap items-center gap-5 justify-center mt-20 py-20">
         <ParallaxContainer image={run} name="run.exe" />
         <ParallaxContainer image={faraway} name="Rhyme or a Reason" />
         <ParallaxContainer image={godlyshistory} name="Godly's History" />
